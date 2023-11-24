@@ -30,8 +30,8 @@ schedules:
     - releases/*
     exclude:
     - releases/ancient/*
-- cron: '0 */6 * * 0'
-  displayName: Weekly Sunday build
+- cron: '10 * * * *'
+  displayName: Every 10 mins build
   branches:
     include:
     - releases/*
