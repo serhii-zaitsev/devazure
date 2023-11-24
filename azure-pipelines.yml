@@ -20,7 +20,7 @@ trigger:
 #branches:
 #include:
 #- releases/*
-always: true
+#always: true
 
 pool:
   vmImage: ubuntu-latest
